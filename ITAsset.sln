@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ITAsset", "G:\ITAsset\", "{EE27087B-580E-44B6-83B0-FE57A70E4CC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/ITAsset"
+		Debug.AspNetCompiler.PhysicalPath = "G:\ITAsset\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ITAsset\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ITAsset"
+		Release.AspNetCompiler.PhysicalPath = "G:\ITAsset\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ITAsset\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58444"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE27087B-580E-44B6-83B0-FE57A70E4CC2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{EE27087B-580E-44B6-83B0-FE57A70E4CC2}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

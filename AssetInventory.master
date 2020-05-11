@@ -1,0 +1,86 @@
+﻿<%@ Master Language="VB" CodeFile="AssetInventory.master.vb" Inherits="AssetInventory" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>It Asset Inventory</title>
+    <link href="~/resources/css/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="~/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/resources/css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="~/resources/css/animate.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" autocomplete="off" runat="server">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+              <a class="navbar-brand" href="#"><img src="resources/img/3.gif" alt="Avatar"  class="navbarBrandImg"></img></a>
+              <a class="navbar-brand" href="#">IT Asset Inventory</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" runat="server">
+                <ul class="navbar-nav mr-auto" >
+                  <li class="nav-item ">
+                    <a class="nav-link" href="frmIndex.aspx" >Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Add New
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="frmInvoice.aspx">Invoice</a>
+                      <a class="dropdown-item" href="frmAsset.aspx">Asset</a>
+                      <a class="dropdown-item" href="frmVendor.aspx">Vendor</a>
+                      <a class="dropdown-item" href="frmAssetType.aspx">AssetType</a>
+                      <a class="dropdown-item" href="frmBrand.aspx">Brand</a>
+                      <a class="dropdown-item" href="frmModel.aspx">Model</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="A1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Reports
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="frmInvoiceReport.aspx">Invoice Report</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="frmIndex.aspx" >
+                    <asp:Label ID="lblCurrentUser" runat="server" class="currentUserText"></asp:Label>
+                  </a>
+                  </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="nav-item">
+                     <asp:LinkButton ID="lbLogOut" runat="server"  OnClick="lnkLogOut_Click"><img src="resources/img/logout.png" alt="Avatar"  class="lbLogOut"></img></asp:LinkButton>
+                  </li>
+                  </ul>
+              </div>
+         </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            
+    </div>
+    <script src="../ITAsset/resources/js/jquery-3.4.1.min.js" language="javascript" type="text/javascript"></script>
+    <script src="../ITAsset/resources/js/bootstrap-datepicker.min.js" language="javascript" type="text/javascript"></script>
+    <script src="../ITAsset/resources/js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
+    <script type="text/javascript">
+            // When the document is ready
+            $(document).ready(function () {
+                
+                $('#txtInvoice').datepicker({
+                    format: "mm/dd/yyyy"
+                });  
+            
+            });
+    </script>
+    </form>
+</body>
+</html>

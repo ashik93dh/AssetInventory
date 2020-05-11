@@ -1,0 +1,10 @@
+[4/26, 9:44 AM] Debayon REFL: <connectionStrings>
+    <add name="HelpDeskConnectionString" connectionString="Data Source=localhost;Initial Catalog=HelpDesk;uid=sa;pwd=Farc1lgh#; Connect Timeout=3600000;" providerName="System.Data.SqlClient" />
+    <add name="HRMConnectionString" connectionString="Data Source=localhost;Initial Catalog=EHRM;uid=sa;pwd=Farc1lgh#; Connect Timeout=360000000;" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+use this sample for connection string in webconfig
+[4/26, 9:45 AM] Debayon REFL: and for connection reference use below:
+-----------------------------------------
+
+ Dim con As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("HelpDeskConnectionString").ConnectionString)

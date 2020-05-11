@@ -1,0 +1,178 @@
+﻿body 
+{
+	font-family:Palatino, URW Palladio L, serif;
+	
+}
+.frmTemplate
+{	margin-left:0em;
+	border-radius: 25px;
+	border: 2px solid #4287f5;
+	padding: 2em;
+	width: auto;
+	height: auto;
+	}
+	.totalAssetAmount
+	{
+		margin-left:1em;
+		
+		
+		}
+.row-bottom-margin { margin-bottom:0px; }
+.navbarBrandImg
+{
+	height:40px;
+	width:120px;
+	
+	}
+.currentUserText
+{
+	margin-top:0.3em;
+	
+	
+	}
+.assetFormTitle
+{
+	margin:0.5em;
+	}
+.titleIndex
+{
+	text-align:center;
+	margin-top:2em;
+	margin-bottom:2em;
+	}
+.templateBody
+{
+	margin-top:1em;
+	}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btn-primary
+{
+	height:auto;
+	margin-left:0.8em;
+	}
+.btn-success
+{
+	height:auto;
+	margin-left:0.8em;
+	}
+	
+.lbLogOut
+{
+  height:30px;
+  width:30px;
+	}
+
+.calendarInvoiceDate
+{
+	width:6em;
+	
+	}
+.indexElement
+{	
+  transition: transform .2s;
+  margin:2em;
+	}
+.indexElement:hover
+{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+	}
+.indexImg
+{
+	height:180px;
+	width:180px;
+	
+	}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.loginForm
+{
+	margin-top:5em;
+	
+	}
+.assetForm
+{
+	
+	border: 2px solid #d3d3d3;
+	padding: 1.2em;
+	width: auto;
+	height: auto;
+	
+	
+	}
+.btnApproveInvoice
+{
+	margin-top:1em;
+	
+	}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
+
+.Grid td {
+
+      padding: 2px;
+
+      border: solid 1px #c1c1c1; }
+
+.Grid th  {
+
+      padding : 4px 2px;
+
+      color: #fff;
+
+      background: #363670 url(Images/grid-header.png) repeat-x top;
+
+      border-left: solid 1px #525252;
+
+      font-size: 0.9em; }
+
+.Grid .alt {
+
+      background: #fcfcfc url(Images/grid-alt.png) repeat-x top; }
+
+.Grid .pgr {background: #363670 url(Images/grid-pgr.png) repeat-x top; }
+
+.Grid .pgr table { margin: 3px 0; }
+
+.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+
+.Grid .pgr a { color: Gray; text-decoration: none; }
+
+.Grid .pgr a:hover { color: #000; text-decoration: none; }
